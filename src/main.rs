@@ -6,10 +6,6 @@ use std::collections::BTreeMap;
 use polars::prelude::*;
 use std::error::Error;
 use regex::Regex;
-//use core::fmt::Error;
-//use csv::Error;
-//use regex::Error;
-
 
 // A CLI tool that extracts values from AMBER MD .lis files.
 fn main() -> Result<(), Box<dyn Error>> {
